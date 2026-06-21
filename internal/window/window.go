@@ -191,7 +191,7 @@ type windowState struct {
 }
 
 func windowID(w Window) string {
-	return fmt.Sprintf("%s_%s", w.Start.UnixNano(), w.End.UnixNano())
+	return fmt.Sprintf("%d_%d", w.Start.UnixNano(), w.End.UnixNano())
 }
 
 // NewWindowBuffer creates a new window buffer.
