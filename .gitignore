@@ -1,0 +1,6 @@
+*.test
+*.out
+vendor/
+.DS_Store
+checkpoints/
+*.prof
